@@ -1,7 +1,0 @@
-CSS  :- Cascading style sheet
-
-Beautification & Modern looking website
-
-Responsiveness – 1% comes through html, 95% comes through CSS
-
-We Will use HTML only for structure, all styling responsibility we will put on shoulder of CSS
