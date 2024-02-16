@@ -1,0 +1,15 @@
+
+/* class selector */
+.title-description{
+    background-color: #0F1035;
+}
+
+/* id selector */
+
+#frist-para{
+    color: #DCF2F1;
+}
+
+#last-para{
+    color: #DCF2F1;
+}

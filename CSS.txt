@@ -49,3 +49,21 @@ type of CSS
 1. inline CSS 
 2. internal CSS
 3. External CSS
+
+--------------Color-------------------
+
+RGB --> Red Green Blue
+
+min --> (0,0,0)
+max --> (255,255,255)
+
+
+HEX   :-  #FF 2D 00
+           R  G  B
+
+
+---------- Selectors--------
+
+id :- 
+
+class :-  
