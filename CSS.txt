@@ -67,3 +67,20 @@ HEX   :-  #FF 2D 00
 id :- 
 
 class :-  
+
+multi Selector:- date 21_fab file name
+
+------------------------pseudo classes & selecting by attributes---------------------------
+
+date 21_fab file name
+
+link
+
+hover
+
+visited
+
+active
+
+-----------------font family---------------- 
+
