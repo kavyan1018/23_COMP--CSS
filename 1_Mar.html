@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        font-size: 32px;
+    }
+
+    h2{
+
+        /* 1 rem = 16px
+            rem: root's em (=font-size)
+        */
+
+        font-size: 2rem;
+        letter-spacing: 2px
+    }
+
+    .box{
+        font-size: 30px;
+    }
+
+    .outer-para{
+        /* font-size: 16px; */
+        /* font-size: 1rem; */
+        /* line-height: 2rem; */
+        line-height: 2em;
+
+        /* line-height: 1.5rem; */
+    }
+
+    /* 
+        rem: multiple of its own font-size only when it is used in a property other than 'font-size'
+
+        em: If em is used in the 'font-size' property then it is multiple of parent's font-size.
+    */
+
+    .second-box{
+        /* font-size: 1rem; */
+        font-size: 22px;
+    }
+
+    .third-box{
+        /* font-size: 20px; */
+        /* font-size: 1.5rem; 1.5 * 16 ==> 24px  */
+        font-size: 1.5rem;
+    }
+
+</style>
+<body>
+    <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam cum quasi, debitis eveniet necessitatibus impedit.</h1>
+
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vero corporis deserunt dolores suscipit ducimus?</h2>
+
+    <div class="box">
+        <div class="second-box">
+            <p class="outer-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus maiores porro illo provident cum quidem delectus molestiae doloribus suscipit illum?</p>
+
+            <div class="third-box">
+                <p class="inner-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse minima hic illum repudiandae a eligendi ipsam debitis praesentium sint magni.</p>
+            </div>
+        </div>
+    </div>
+
+    <button id="btn1">Button 1</button>
+    <button id="btn2">Button 2</button>
+    <button id="btn3">Button 3</button>
+</body>
+</html>
