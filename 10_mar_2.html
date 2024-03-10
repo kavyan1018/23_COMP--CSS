@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: skyblue;
+        /* background-color: red;
+        background-color: red; */
+    }
+
+    .outer, .inner{
+        border: solid;
+        margin: auto;
+        width: 70%;
+    }
+
+    .outer{
+        height: 500px;
+        margin-top: 7rem;
+        /* position: relative;
+        z-index: -1;     */
+        }
+    
+    .inner{
+        height: 70%;
+        margin-top: 7rem;
+        /* position: relative; */
+        /* z-index: -1; */
+    }
+
+    button{
+        font-size: 1.4rem;
+    }
+
+    #Static{
+        position: relative;
+
+        left: 10px;
+    }
+</style>
+<body>
+
+    <!-- Positions -->
+    <div id="sticky">Sticky Navbar</div>
+
+    <div class="outer">
+        <div class="inner">
+            <button id="Static">Static</button>
+            <button id="Relative">Relative</button>
+            <button id="Absolute">Absolute</button>
+        </div>
+    </div>
+
+    <div id="fixed">Fixed Chatbox</div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sequi hic. Quis voluptatum expedita animi placeat. Velit commodi ab, tempora voluptatibus corrupti voluptatem, dolor minima quas recusandae ut omnis autem, architecto tempore fugiat reprehenderit suscipit deleniti culpa excepturi inventore. Totam repellat animi labore expedita veritatis beatae odio ipsa facere quidem.</p>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sequi hic. Quis voluptatum expedita animi placeat. Velit commodi ab, tempora voluptatibus corrupti voluptatem, dolor minima quas recusandae ut omnis autem, architecto tempore fugiat reprehenderit suscipit deleniti culpa excepturi inventore. Totam repellat animi labore expedita veritatis beatae odio ipsa facere quidem.</p>
+</body>
+</html>
