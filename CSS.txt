@@ -87,3 +87,10 @@ active
 --> We can change our fonts style using font family
 
 ----------------Border --------------------
+
+
+-------------Backgroung -------------
+
+1.Backgroung image
+2.Backgroung repeat
+3.Backgroung position
